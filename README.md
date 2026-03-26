@@ -1,19 +1,19 @@
 # Plantilla AED3 — ATmega328P con PlatformIO
 
-Proyecto base para la materia **Arquitectura y Estructura de Datos 3**
+Proyecto base para la materia **Aplicaciones de Electronica Digital 3**
 de la EESTN°1. Pensado para usarse como punto de partida en trabajos
 prácticos con microcontroladores AVR.
 
 ## Qué incluye
 
-| Componente | Ubicación | Descripción |
-|---|---|---|
-| Esqueleto FSM | `src/main.c` | Estructura base de máquina de estados |
-| Guía FSM | `src/FSM.md` | Referencia rápida sobre cómo usar FSMs en C |
-| Driver LCD HD44780 | `lib/lcd/` | Display alfanumérico, interfaz 4-bit u 8-bit |
-| Driver I2C (TWI) | `lib/i2c/` | Comunicación I2C en modo master |
-| Driver USART | `lib/usart/` | Comunicación serie (TX/RX) |
-| Utilidades | `lib/util/` | Macros de bits, timer de 1 ms |
+| Componente         | Ubicación     | Descripción                                  |
+| ------------------ | -------------- | --------------------------------------------- |
+| Esqueleto FSM      | `src/main.c` | Estructura base de máquina de estados        |
+| Guía FSM          | `src/FSM.md` | Referencia rápida sobre cómo usar FSMs en C |
+| Driver LCD HD44780 | `lib/lcd/`   | Display alfanumérico, interfaz 4-bit u 8-bit |
+| Driver I2C (TWI)   | `lib/i2c/`   | Comunicación I2C en modo master              |
+| Driver USART       | `lib/usart/` | Comunicación serie (TX/RX)                   |
+| Utilidades         | `lib/util/`  | Macros de bits, timer de 1 ms                 |
 
 ## Hardware objetivo
 
