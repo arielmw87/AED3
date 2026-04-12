@@ -14,6 +14,7 @@
 #define USART_H
 
 #include <stdint.h>
+#include <arduino.h>
 #include "usart_config.h"
 
 #ifdef __cplusplus
