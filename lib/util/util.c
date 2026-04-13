@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <util.h>
 #include <debounce.h>
+#include <usart.h>
 
 
 
@@ -20,5 +21,6 @@ void config_timer0(void){
 ISR(TIMER0_COMPA_vect){
 
     debounce_tick();
+    usart_tick();
 
 }
